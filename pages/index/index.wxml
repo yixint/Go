@@ -5,7 +5,7 @@
     
   </view>
   <view>
-    <text class="userinfo-nickname">{{userInfo.nickName}}（Dunizb）</text>
+    <text class="userinfo-nickname">{{userInfo.nickName}}</text>
   </view>
   <view class="usermotto">
     <!--<text class="user-motto">{{motto}}</text>-->
@@ -14,7 +14,7 @@
   </view>
   <view>
     <navigator url="view" class="github" hover-class="navigator-hover">
-      <icon type="{{iconType}}" class="icon" size="20"/>GitHub
+      <icon type="{{iconType}}" class="icon" size="20"/>By Karen
     </navigator>
   </view>
 </view>

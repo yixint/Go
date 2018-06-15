@@ -1,0 +1,10 @@
+你最喜欢和擅长打出的球是？
+<!--设置监听器，当点击radio时调用-->
+<radio-group bindchange="checkboxChange">
+<!--label通常与radio和checkbox结合使用-->
+    <label style="display: flex;"  wx:for-items="{{items}}">
+    <!--value值和默认选中状态都是通过数据绑定在js中的-->
+        <checkbox value="{{item.name}}" checked="{{item.checked}}"/>{{item.value}}
+    </label>
+<button size="default" type="primary" bindtap="toFinal"> 揭晓答案</button>
+</radio-group>

@@ -3,7 +3,7 @@
 var app = getApp()
 Page({
   data: {
-    motto: '简易计算器☞',
+    motto: '从这里开始☞',
     userInfo: {},
     defaultSize: 'default',
     disabled: false,
@@ -17,7 +17,12 @@ Page({
   },
   toCalc:function(){
     wx.navigateTo({
-      url:'../calc/calc'
+      url:'../test/test'
+    })
+  },
+  toNext:function(){
+    wx.navigateTo({
+      url:'../test2/test2'
     })
   },
   onLoad: function () {
