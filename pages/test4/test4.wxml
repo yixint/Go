@@ -1,4 +1,4 @@
-你如何评价自己的正反手？
+你如何评价自己的防守能力？
 <!--设置监听器，当点击radio时调用-->
 <radio-group bindchange="checkboxChange">
 <button size="default" type="primary" bindtap="toNext">下一个题</button>  

@@ -1,10 +1,10 @@
 Page({  
   data: {  
     items: [  
-      {name: 'a', value: '160-169'},  
+      {name: 'a', value: '杀球'},  
       //checked为truetrue，所以该项默认选中  
-      {name: 'b', value: '170-179'},  
-      {name: 'c', value: '180-189'},  
+      {name: 'b', value: '平抽'},  
+      {name: 'c', value: '吊球放网'},  
     ],
     confirmed: 0
   },  
@@ -12,7 +12,7 @@ Page({
 
   toNext:function(){
     wx.navigateTo({
-      url:'../test2/test2',
+      url:'../test4/test4',
       success: function(res){
 
       },

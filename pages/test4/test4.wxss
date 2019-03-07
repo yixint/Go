@@ -1,6 +1,6 @@
 .container {
     background-size:100% 100%;
-    background-image: url("http://yonex.co.uk/_assets/images/Lee-Chong-Wei_1%281%29.jpg");
+    background-image: url("http://img0.imgtn.bdimg.com/it/u=1236792889,1945297355&fm=26&gp=0.jpg");
 }
 .layout-top{
     width: 100%;

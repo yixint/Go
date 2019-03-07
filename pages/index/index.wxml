@@ -14,7 +14,7 @@
   </view>
   <view>
     <navigator url="view" class="github" hover-class="navigator-hover">
-      <icon type="{{iconType}}" class="icon" size="20"/>By Karen
+      <icon type="{{iconType}}" class="icon" size="20"/>By 软如豆浆
     </navigator>
   </view>
 </view>

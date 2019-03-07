@@ -2,4 +2,4 @@
 
 你最像李宗伟！哈哈哈
 
-
+<view class="container" bindtap="coming"></view>

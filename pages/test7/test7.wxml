@@ -1,11 +1,11 @@
-你如何评价自己的正反手？
+如何评价自己的体能分配？
 <!--设置监听器，当点击radio时调用-->
 <radio-group bindchange="checkboxChange">
-<button size="default" type="primary" bindtap="toNext">下一个题</button>  
 <!--label通常与radio和checkbox结合使用-->
     <label style="display: flex;"  wx:for-items="{{items}}">
     <!--value值和默认选中状态都是通过数据绑定在js中的-->
         <checkbox value="{{item.name}}" checked="{{item.checked}}"/>{{item.value}}
     </label>
+<button size="default" type="primary" bindtap="toFinal"> 揭晓答案</button>
 </radio-group>
 <view class="container" bindtap="coming"></view>

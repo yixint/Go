@@ -1,11 +1,6 @@
-.content {
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-color: #ccc;
-    font-family: "Microsoft YaHei";
-    overflow-x: hidden;
+.container {
+    background-size:100% 100%;
+    background-image: url("http://image.qtv.com.cn/003/017/681/00301768156_a3dcb5ec.jpg");
 }
 .layout-top{
     width: 100%;
