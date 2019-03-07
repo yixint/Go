@@ -1,6 +1,6 @@
+你的身高是多少？
 
 
-	  	你最喜欢的击球点在什么地方？
 <!--设置监听器，当点击radio时调用-->
 <radio-group bindchange="checkboxChange">
 <button size="default" type="primary" bindtap="toNext">下一个题</button>  
@@ -10,3 +10,4 @@
         <checkbox value="{{item.name}}" checked="{{item.checked}}"/>{{item.value}}
     </label>
 </radio-group>
+<view class="container" bindtap="coming"></view>

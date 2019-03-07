@@ -1,10 +1,10 @@
 Page({  
   data: {  
     items: [  
-      {name: 'a', value: '160-169'},  
+      {name: 'a', value: '总差一点，够着打'},  
       //checked为truetrue，所以该项默认选中  
-      {name: 'b', value: '170-179'},  
-      {name: 'c', value: '180-189'},  
+      {name: 'b', value: '能跑到位，但身体朝向总有问题'},  
+      {name: 'c', value: '步伐灵动，身体舒展，回位快速'},  
     ],
     confirmed: 0
   },  
@@ -12,7 +12,7 @@ Page({
 
   toNext:function(){
     wx.navigateTo({
-      url:'../test2/test2',
+      url:'../test7/test7',
       success: function(res){
 
       },

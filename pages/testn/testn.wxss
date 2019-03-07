@@ -1,11 +1,6 @@
-.content {
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-color: #ccc;
-    font-family: "Microsoft YaHei";
-    overflow-x: hidden;
+.container {
+    background-size:100% 100%;
+    background-image: url("https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1552545687&di=f26ef5c61876ebaf0abb5ea711e453e5&imgtype=jpg&er=1&src=http%3A%2F%2Fit.chd.edu.cn%2Fimages%2F15%2F09%2F25%2F29os1bd0to%2F2011418115551993.jpg");
 }
 .layout-top{
     width: 100%;

@@ -1,10 +1,10 @@
 Page({  
   data: {  
     items: [  
-      {name: 'a', value: '160-169'},  
+      {name: 'a', value: '前中后可以到位'},  
       //checked为truetrue，所以该项默认选中  
-      {name: 'b', value: '170-179'},  
-      {name: 'c', value: '180-189'},  
+      {name: 'b', value: '前中后，左中右，指哪儿打哪儿'},  
+      {name: 'c', value: '三维控制，对球飞行路线有所把握'},  
     ],
     confirmed: 0
   },  
@@ -12,7 +12,7 @@ Page({
 
   toNext:function(){
     wx.navigateTo({
-      url:'../test2/test2',
+      url:'../test6/test6',
       success: function(res){
 
       },

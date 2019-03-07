@@ -1,18 +1,23 @@
 Page({  
   data: {  
     items: [  
-      {name: 'a', value: '160-169'},  
+      {name: 'a', value: '刚开始好猛，打着打着好累'},  
       //checked为truetrue，所以该项默认选中  
-      {name: 'b', value: '170-179'},  
-      {name: 'c', value: '180-189'},  
+      {name: 'b', value: '体能消耗均匀，动作不变形'},  
+      {name: 'c', value: '体力充沛，打不累'},  
     ],
     confirmed: 0
   },  
 
+  toFinal:function(){
+    wx.navigateTo({
+      url:'../testn/testn'
+    })
+  },
 
   toNext:function(){
     wx.navigateTo({
-      url:'../test2/test2',
+      url:'../test3/test3',
       success: function(res){
 
       },
